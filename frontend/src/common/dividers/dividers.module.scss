@@ -1,0 +1,12 @@
+@import '../../scss/colors.scss';
+
+.divider__x {
+  width: 70%;
+  height: 4px;
+
+  margin: 10px auto;
+
+  border-radius: 10px;
+
+  background-color: rgba($color: $bg-pink, $alpha: 0.3);
+}
