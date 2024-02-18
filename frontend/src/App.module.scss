@@ -129,3 +129,90 @@
 
   margin-bottom: 10px;
 }
+
+.education {
+  display: flex;
+  flex-direction: column;
+
+  max-width: 80%;
+
+  font-size: 24px;
+
+  text-align: center;
+
+  * {
+    font-family: 'Kode Mono';
+
+    text-align: center;
+  }
+}
+
+.education__list {
+  max-height: 300px;
+  max-width: 100%;
+
+  position: relative;
+}
+
+.education__year {
+  font-size: 14px;
+}
+
+.education__name {
+  font-size: 18px;
+}
+
+.education__spec {
+  font-size: 16px;
+}
+
+.education__location {
+  font-size: 14px;
+}
+
+.education__list {
+  display: flex;
+  flex-direction: column;
+}
+
+.education__year {
+  color: $bg-cyan;
+
+  font-size: 24px;
+
+  margin: 0 auto;
+}
+
+.education__year::after {
+  content: '';
+  display: block;
+
+  width: 50%;
+  height: 3px;
+
+  margin: 10px auto;
+
+  background-color: rgba($color: $bg-cyan, $alpha: 0.5);
+}
+
+.education__name {
+  font-size: 24px;
+}
+
+.education__spec {
+  margin-top: 10px;
+
+  font-size: 18px;
+
+  color: $grey;
+}
+
+.education__location {
+  font-size: 18px;
+
+  color: $grey;
+}
+
+.education__list {
+  margin-bottom: 20px;
+}
