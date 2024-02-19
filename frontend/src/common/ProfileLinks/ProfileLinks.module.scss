@@ -1,0 +1,27 @@
+@import '../../scss/colors.scss';
+
+.links__wrapper {
+  margin: 20px auto;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.link {
+  height: 48px;
+  width: 48px;
+
+  margin: 0 10px;
+
+  transition: 0.3s all ease;
+}
+
+.link:hover {
+  transform: scale(1.1);
+
+  filter: drop-shadow(0 5px 15px $bg-pink);
+}
