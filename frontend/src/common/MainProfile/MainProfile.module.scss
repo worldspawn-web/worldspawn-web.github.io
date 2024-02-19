@@ -1,0 +1,45 @@
+@import '../../scss/colors.scss';
+
+.heading__wrapper {
+  margin: 20px auto;
+}
+
+.heading__name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading__image {
+  height: 200px;
+  width: 200px;
+
+  margin-bottom: 20px;
+
+  object-fit: cover;
+
+  border-radius: 100%;
+}
+
+.heading__header {
+  font-size: 32px;
+  font-family: 'Kode Mono';
+}
+
+.heading__username {
+  font-family: 'Kode Mono';
+  font-size: 16px;
+
+  color: $grey;
+}
+
+.heading__desc {
+  max-width: 85%;
+
+  margin: 20px auto;
+
+  text-align: center;
+
+  font-size: 24px;
+}
